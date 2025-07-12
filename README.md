@@ -51,7 +51,7 @@ El objetivo de este análisis es identificar **pagos fraudulentos** y **no fraud
 ---
 
 
-## 🧹 Limpieza de Datos
+## 🧹 Limpieza de Datos(Pasos que se realizaron en la entrega anterior)
 1. **Carga** del CSV  
 2. **Visualización** inicial  
 3. **Identificación** de tipos de variable  
@@ -72,19 +72,15 @@ El objetivo de este análisis es identificar **pagos fraudulentos** y **no fraud
 - **Lenguaje , librerías y modelos **:  
   - Python: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikitlearn`,`RandomForestClassifier`,`scipy`,`sklearn.ensemble`,`XGboost`,
     
-- **Pasos**:  
-  1. Preprocesamiento y limpieza  
-  2. Ingeniería de características  
-  3. Selección y evaluación de modelos (RandomForest, XGBoost, redes neuronales…)  
-  4. Validación cruzada y métricas  
-  5. Interpretación de resultados
-  6. Carga y Preprocesamiento (escalado, separación de etiquetas)  
-  7. Reducción de Dimensionalidad con PCA  
-  8. Búsqueda de Parámetros para K-Means (Elbow y Silhouette)  
-  9. Entrenamiento Final de K-Means y evaluación de la tasa de fraude en cada cluster  
-  10. Estimación de ε y Ejecución de DBSCAN, con gráfico de k-distancia para seleccionar eps
-  11. IsolationForest para scoring de anomalías
-  12. Evaluación y Combinación de Señales de los métodos 
+- **Pasos**:(Entrega Final )
+  
+  1. Carga y Preprocesamiento (escalado, separación de etiquetas)  
+  2. Reducción de Dimensionalidad con PCA  
+  3. Búsqueda de Parámetros para K-Means (Elbow y Silhouette)  
+  4. Entrenamiento Final de K-Means y evaluación de la tasa de fraude en cada cluster  
+  5. Estimación de ε y Ejecución de DBSCAN, con gráfico de k-distancia para seleccionar eps
+  6. IsolationForest para scoring de anomalías
+  7. Evaluación y Combinación de Señales de los métodos 
 
 ---
 
