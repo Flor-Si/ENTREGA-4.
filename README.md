@@ -70,14 +70,21 @@ El objetivo de este análisis es identificar **pagos fraudulentos** y **no fraud
 
 ## 🚀 Metodología
 - **Lenguaje , librerías y modelos **:  
-  - Python: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`,`RandomForestClassifier`,`scipy`,`sklearn.ensemble`,`XGboost`,
+  - Python: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikitlearn`,`RandomForestClassifier`,`scipy`,`sklearn.ensemble`,`XGboost`,
     
 - **Pasos**:  
   1. Preprocesamiento y limpieza  
   2. Ingeniería de características  
   3. Selección y evaluación de modelos (RandomForest, XGBoost, redes neuronales…)  
   4. Validación cruzada y métricas  
-  5. Interpretación de resultados  
+  5. Interpretación de resultados
+  6. Carga y Preprocesamiento (escalado, separación de etiquetas)  
+  7. Reducción de Dimensionalidad con PCA  
+  8. Búsqueda de Parámetros para K-Means (Elbow y Silhouette)  
+  9. Entrenamiento Final de K-Means y evaluación de la tasa de fraude en cada cluster  
+  10. Estimación de ε y Ejecución de DBSCAN, con gráfico de k-distancia para seleccionar eps
+  11. IsolationForest para scoring de anomalías
+  12. Evaluación y Combinación de Señales de los métodos 
 
 ---
 
